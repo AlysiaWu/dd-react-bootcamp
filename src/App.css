@@ -1,11 +1,14 @@
-.App {
-  text-align: center;
-}
 .app {
-	background-color: #FFB6C1;
-
+	display: flex;
 }
 .message-list {
 	background-color: #F0FFFF;
 }
 
+.room-list{
+	background-color: #87CEFA;
+}
+
+.room {
+	flex-grow: 2;
+}
